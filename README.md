@@ -21,8 +21,12 @@ Write a program, `list-names`, that reads a SimpleFASTQ file and outputs all the
 
 You can test your program using `./test-list-names.sh`.
 
+The CMake file is set up to build `list-names` from `src/list-names.c`, so that is a good place to start.
+
 ## Exercise
 
 Write a program, `list-seqs`, that reads a SimpleFASTQ file and outputs all the read sequences, one sequence per line.
 
 You can test your program using `./test-list-seqs.sh`.
+
+The CMake file is set up to build `list-seqs` from `src/list-seqs.c`, so that is a good place to start.
